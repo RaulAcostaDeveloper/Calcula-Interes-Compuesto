@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Porcentaje de crecimiento anual prometido por el banco</p>
+    <input type="number" placeholder="porcentaje" id="porcentaje" onchange="calcula()" value="15">
+    <p>Cantidad inicial en tarjeta</p>
+    <input type="number" placeholder="cantidad" id="cantidad" onchange="calcula()">
+    <p>Cantidad a inyectar anualmente</p>
+    <input type="number" placeholder="aniadirAnual" id="aniadirAnual" onchange="calcula()" value="0">
+    <p>Años a calcular</p>
+    <input type="number" placeholder="anios" id="anios" onchange="calcula()" value="5">
+    <hr>
+    <div id="container">
+
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>
